@@ -19,7 +19,27 @@
     100%{transform: rotate(0deg);}
 }
 
+.container__between-top i{
+    transform: rotate(90deg);
+    text-align: center;
+    font-size: 25px;
+    transition: 0.3s;
+    position: relative;
+    animation-name: top;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes top {
+    0%{}
+    50%{top:-20px}
 
+}
+
+.container__between-top{
+    text-align: center;
+    margin-top: 60px;
+    /* background-color: skyblue; */
+}
 a{
     color: #333;
     text-decoration: none;
